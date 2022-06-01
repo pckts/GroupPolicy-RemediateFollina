@@ -21,6 +21,8 @@ Howto (Intune deployment):
 9. Assign it to a group that contains all users/endpoints.
 10. Done
 
+Note about Intune: TECHNICALLY you can just use the LocalScript-RemediateFollina.ps1 instead, which disables Preview pane directly as a regedit. This means you won't have to create a configuration profile but only the script. The reason I've chosen to use a configuration profile for this setting, which in theory does the same thing, is that a configuration profile is easier to undeploy, as Preview pane is a feature certain users might want to use again when a official patch is released and applied to the system.
+
 Howto (Individual device deployment):
 1. Download LocalScript-RemediateFollina.exe to the device
 (LocalScript-RemediateFollina.ps1 is identical to the .exe. Use this if you're paranoid.)
