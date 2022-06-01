@@ -20,7 +20,11 @@ if ($currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administ
 }
 
 #Removes GPO if already existing, this allows re-runs if unexpected output
-Remove-GPO -Name RemediateFollina
+﻿$DoesGPOExist = Get-GPO -All | Where-Object {$_.displayname -like "RemediateFollina"}
+if ($DoesGPOExist -ne $null)
+{
+    Remove-GPO -Name RemediateFollina
+}
 
 #Imports the GPOs and links them at domain root, as well as enforces it
 $Partition = Get-ADDomainController | Select DefaultPartition
