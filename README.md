@@ -17,7 +17,7 @@ Howto (Intune deployment):
 5. Select the 'Scripted Diagnostics' subcategory
 6. Select the 'Troubleshooting: Allow users to access and run Troubleshooting Wizards' setting
 7. Remember to enable them
-8. Deploy to all users
+8. Deploy to all users and devices
 9. Create
 10. Done
 
