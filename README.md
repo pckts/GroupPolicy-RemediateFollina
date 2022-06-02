@@ -18,7 +18,7 @@ Howto (Intune deployment):
 6. Create/add a Script
 7. Upload IntuneScript-RemediateFollina.ps1 for Script Location
 8. Set 'Run script in 64 bit powershell Host' to Yes
-9. Assign it to a group that contains all users/endpoints.
+9. Assign it to a group that contains all endpoints.
 10. Done
 
 Note about Intune: TECHNICALLY you can just use the LocalScript-RemediateFollina.ps1 instead, which disables Preview pane directly as a regedit. This means you won't have to create a configuration profile but only the script. The reason I've chosen to use a configuration profile for this setting, which in theory does the same thing, is that a configuration profile is easier to undeploy, as Preview pane is a feature certain users might want to use again when a official patch is released and applied to the system.
