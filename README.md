@@ -13,7 +13,7 @@ Howto (Intune deployment):
 1. Connect to Endpoint Manager (MEM) with sufficient privileges
 2. Create a configuration profile of 'Settings Catalog' type
 3. Select the 'Explorer Frame Pane' subcategory
-4. Select the 'Turn off Previe Pane (User)' setting
+4. Select the 'Turn off Preview Pane (User)' setting
 5. Select the 'Scripted Diagnostics' subcategory
 6. select the 'Troubleshooting: Allow users to access and run Troubleshooting Wizards' setting
 7. Remember to enable them
