@@ -15,7 +15,7 @@ Howto (Intune deployment):
 3. Select the 'Explorer Frame Pane' subcategory
 4. Select the 'Turn off Preview Pane (User)' setting
 5. Select the 'Scripted Diagnostics' subcategory
-6. select the 'Troubleshooting: Allow users to access and run Troubleshooting Wizards' setting
+6. Select the 'Troubleshooting: Allow users to access and run Troubleshooting Wizards' setting
 7. Remember to enable them
 8. Deploy to all users
 9. Create
