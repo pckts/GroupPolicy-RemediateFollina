@@ -20,7 +20,7 @@ if ($currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administ
 }
 
 #Removes GPO if already existing, this allows re-runs if unexpected output
-﻿$DoesGPOExist = Get-GPO -All | Where-Object {$_.displayname -like "RemediateFollina"}
+$DoesGPOExist = Get-GPO -All | Where-Object {$_.displayname -like "RemediateFollina"}
 if ($DoesGPOExist -ne $null)
 {
     Remove-GPO -Name RemediateFollina
