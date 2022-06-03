@@ -1,5 +1,5 @@
 # GroupPolicy-RemediateFollina
-Powershell | Group Policy | Remediates Follina Vulnerability by disabling file preview and Windows Diagnostics
+Powershell | Group Policy | Remediates Follina Vulnerability by disabling file preview in explorer and Troubleshooting Wizards
 
 Howto (AD DS deployment):
 1. RDP to DC
