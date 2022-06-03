@@ -16,10 +16,11 @@ Howto (Intune deployment):
 4. Select the 'Turn off Preview Pane (User)' setting
 5. Select the 'Scripted Diagnostics' subcategory
 6. Select the 'Troubleshooting: Allow users to access and run Troubleshooting Wizards' setting
-7. Remember to enable them
-8. Deploy to all users and devices
-9. Create
-10. Done
+7. Set 'Turn off preview pane' to Enabled
+8. Set 'Troubleshooting: Allow users (...)' to Disabled
+9. Deploy to all users and devices
+10. Create
+11. Done
 
 Howto (Individual device deployment):
 1. Download LocalScript-RemediateFollina.exe to the device
