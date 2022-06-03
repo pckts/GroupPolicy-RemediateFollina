@@ -1,5 +1,5 @@
-# Disables File Preview in Explorer and disables Remote Diagnostics support
-# This remediates the Follina vulnerability
+# GroupPolicy-RemediateFollina
+# Remediates Follina Vulnerability by disabling file preview in explorer and Troubleshooting Wizards
 
 #========#
 # ^^^^^^ #
